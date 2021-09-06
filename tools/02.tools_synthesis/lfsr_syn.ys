@@ -1,0 +1,14 @@
+# read design 
+read_verilog lfsr16.v
+
+# generic synthesis
+synth -top lfsr16
+
+# mapping to vsclib013.lib
+dfflibmap -liberty vsclib013.lib
+abc -liberty vsclib013.lib
+clean
+
+# write synthesized design
+# write_verilog -noattr -noexpr out.v
+write_verilog -noattr -noexpr lfsr16_netlist.v
