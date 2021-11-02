@@ -1,0 +1,15 @@
+set dc_source_path ../../src/rtl
+set library_path ../../PDK/FE/Synopsys_DB
+#set RAM_path ../../REF/RAM256X8
+
+# $library_path/hgi1113tp1_040926/db
+set search_path ". $search_path \
+		$library_path/m18gm180s_synopsysdb_111206 \
+		$dc_source_path"
+
+set target_library "m18gm180s_wci.db"
+
+set link_path "* $target_library"
+set symbol_library m18gm180s.sdb
+
+set hdlin_enable_configurations true

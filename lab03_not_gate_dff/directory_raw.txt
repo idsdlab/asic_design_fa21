@@ -1,0 +1,15 @@
+.
+|-- sim
+|   |-- func_sim
+|   |-- post_sim
+|   `-- pre_sim
+|-- src
+|   |-- netlist
+|   |   |-- post
+|   |   `-- pre
+|   `-- rtl
+|-- sta
+|   |-- post
+|   `-- pre
+|-- syn
+`-- testbench

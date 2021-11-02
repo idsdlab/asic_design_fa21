@@ -1,0 +1,34 @@
+.
+|-- directory.txt
+|-- sim
+|   |-- func_sim
+|   |   |-- Makefile
+|   |   |-- novas.conf
+|   |   |-- novas.rc
+|   |   |-- run.f
+|   |   |-- run.sh
+|   |   |-- run_verdi.sh
+|   |   `-- sim_define.v
+|   |-- post_sim
+|   |   `-- readme
+|   `-- pre_sim
+|       `-- readme
+|-- src
+|   |-- netlist
+|   |   |-- post
+|   |   |   `-- readme
+|   |   `-- pre
+|   |       `-- readme
+|   `-- rtl
+|       `-- readme
+|-- sta
+|   |-- post
+|   |   `-- readme
+|   `-- pre
+|       `-- readme
+|-- syn
+|   `-- readme
+`-- testbench
+    `-- readme
+
+14 directories, 17 files
